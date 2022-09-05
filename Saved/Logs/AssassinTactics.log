@@ -8060,3 +8060,25 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.05-01.58.38:317][632]LogFileHelpers: Saving map 'TestMap' took 0.027
 [2022.09.05-01.58.38:328][632]AssetCheck: New page: Asset Save: TestMap
 [2022.09.05-01.58.38:328][632]LogContentValidation: Display: Validating World /Game/Maps/TestMap.TestMap
+[2022.09.05-02.18.21:555][563]BlueprintLog: New page: Compile BP_ItemBox
+[2022.09.05-02.18.21:596][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.09.05-02.18.22:018][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/IteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.05-02.18.22:026][586]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox04493ACB46AA1261384E149EFD38336A.tmp' to '../../../../../../study/AssassinTactics/Content/IteractionObjs/BP_ItemBox.uasset'
+[2022.09.05-02.18.22:039][586]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.05-02.18.22:039][586]LogContentValidation: Display: Validating Blueprint /Game/IteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.05-02.18.34:425][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/IteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.05-02.18.34:430][323]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox9B90E3714F91D45F8726A8B7F61F3E0B.tmp' to '../../../../../../study/AssassinTactics/Content/IteractionObjs/BP_ItemBox.uasset'
+[2022.09.05-02.18.34:441][323]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.05-02.18.34:441][323]LogContentValidation: Display: Validating Blueprint /Game/IteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.05-02.19.01:904][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.09.05-02.19.01:905][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../study/AssassinTactics/Saved/Autosaves/Game/Maps/TestMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.09.05-02.19.01:913][968]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMap_Auto1C9BF673E475C8D1D007560A9982EFA5B.tmp' to '../../../../../../study/AssassinTactics/Saved/Autosaves/Game/Maps/TestMap_Auto1.umap'
+[2022.09.05-02.19.01:913][968]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/TestMap' took 0.034
+[2022.09.05-02.19.01:913][968]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2022.09.05-02.19.37:641][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.09.05-02.19.37:663][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../study/AssassinTactics/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.05-02.19.37:680][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.09.05-02.19.37:686][109]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMap23050B994A99230AF89632B6EBDA6BF7.tmp' to '../../../../../../study/AssassinTactics/Content/Maps/TestMap.umap'
+[2022.09.05-02.19.37:689][109]LogFileHelpers: Saving map 'TestMap' took 0.027
+[2022.09.05-02.19.37:701][109]AssetCheck: New page: Asset Save: TestMap
+[2022.09.05-02.19.37:701][109]LogContentValidation: Display: Validating World /Game/Maps/TestMap.TestMap
