@@ -3383,3 +3383,1533 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.23-08.10.36:489][589]LogFileHelpers: Saving map 'TestMapS' took 0.161
 [2022.09.23-08.10.36:502][589]AssetCheck: New page: Asset Save: TestMapS
 [2022.09.23-08.10.36:502][589]LogContentValidation: Display: Validating World /Game/Maps/TestMapS.TestMapS
+[2022.09.23-08.11.47:727][122]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.09.23-08.11.47:735][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.23-08.11.47:735][122]PIE: New page: PIE session: TestMapS (2022. 9. 24. 오전 2:11:47)
+[2022.09.23-08.11.47:735][122]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMapS
+[2022.09.23-08.11.47:764][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029184s)
+[2022.09.23-08.11.47:765][122]LogAIModule: Creating AISystem for world TestMapS
+[2022.09.23-08.11.47:765][122]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2022.09.23-08.11.47:765][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMapS.TestMapS to /Game/Maps/UEDPIE_0_TestMapS.TestMapS (0.029979s)
+[2022.09.23-08.11.47:789][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.09.23-08.11.47:790][122]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.09.23-08.11.47:790][122]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.23-08.11.47:790][122]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.23-08.11.47:790][122]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.23-08.11.47:790][122]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.23-08.11.47:790][122]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.23-08.11.47:790][122]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.23-08.11.47:790][122]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.23-08.11.47:790][122]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.23-08.11.47:791][122]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.23-08.11.47:791][122]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.23-08.11.47:791][122]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.23-08.11.47:791][122]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.23-08.11.47:793][122]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.23-08.11.47:793][122]LogAudioMixer: Display: 1: FrontRight
+[2022.09.23-08.11.47:914][122]LogAudioMixer: Display: Using Audio Device Speaker(Realtek(R) Audio)
+[2022.09.23-08.11.47:914][122]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.23-08.11.47:914][122]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.23-08.11.47:914][122]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.23-08.11.47:915][122]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.23-08.11.47:915][122]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.23-08.11.47:915][122]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.23-08.11.47:915][122]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.23-08.11.47:915][122]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.23-08.11.47:915][122]LogInit: FAudioDevice initialized.
+[2022.09.23-08.11.47:916][122]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestMapS'.
+[2022.09.23-08.11.47:940][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.23-08.11.47:940][122]LogLoad: Game class is 'ATGameMode_C'
+[2022.09.23-08.11.47:947][122]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMapS.TestMapS up for play (max tick rate 60) at 2022.09.23-17.11.47
+[2022.09.23-08.11.47:947][122]LogWorld: Bringing up level for play took: 0.007416
+[2022.09.23-08.11.47:947][122]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2022.09.23-08.11.47:951][122]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.09.23-08.11.47:951][122]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2022.09.23-08.11.47:952][122]PIE: Server logged in
+[2022.09.23-08.11.47:953][122]PIE: Play in editor total start time 0.221 seconds.
+[2022.09.23-08.11.47:953][122]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.47:983][122]LogAudio: Warning: Detected orphaned looping sound 'Rain'.
+[2022.09.23-08.11.48:002][123]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:018][124]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:036][125]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:052][126]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:069][127]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:085][128]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:102][129]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:120][130]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:136][131]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:153][132]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:169][133]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:187][134]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:203][135]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:219][136]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:235][137]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:252][138]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:269][139]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:286][140]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:302][141]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:319][142]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:336][143]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:355][144]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:369][145]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:386][146]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:403][147]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:419][148]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:436][149]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:452][150]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:469][151]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:485][152]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:502][153]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:518][154]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:537][155]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:553][156]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:569][157]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:585][158]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:602][159]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:619][160]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:636][161]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:652][162]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:669][163]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:686][164]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:702][165]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:719][166]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:736][167]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:752][168]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:769][169]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:786][170]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:802][171]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:820][172]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:836][173]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:852][174]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:869][175]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:885][176]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:902][177]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:919][178]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:936][179]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:952][180]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:969][181]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.48:985][182]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:001][183]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:019][184]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:036][185]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:052][186]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:069][187]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:086][188]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:102][189]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:119][190]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:136][191]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:152][192]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:169][193]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:186][194]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:202][195]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:219][196]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:236][197]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:252][198]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:268][199]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:285][200]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:301][201]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:318][202]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:335][203]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:352][204]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:368][205]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:385][206]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:402][207]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:419][208]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:435][209]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:451][210]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:469][211]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:486][212]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:502][213]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:518][214]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:535][215]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:552][216]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:568][217]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:585][218]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:602][219]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:618][220]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:635][221]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:652][222]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:668][223]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:685][224]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:702][225]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:718][226]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:735][227]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:752][228]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:768][229]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:785][230]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:802][231]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:818][232]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:835][233]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:852][234]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:868][235]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:885][236]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:902][237]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:918][238]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:935][239]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:952][240]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:968][241]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.49:985][242]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:001][243]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:018][244]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:035][245]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:052][246]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:068][247]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:085][248]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:102][249]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:118][250]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:135][251]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:152][252]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:168][253]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:185][254]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:202][255]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:218][256]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:235][257]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:252][258]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:268][259]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:285][260]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:302][261]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:318][262]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:335][263]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:352][264]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:368][265]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:385][266]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:402][267]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:418][268]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:435][269]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:452][270]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:468][271]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:485][272]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:502][273]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:519][274]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:535][275]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:552][276]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:568][277]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:585][278]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:601][279]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:618][280]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:635][281]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:652][282]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:669][283]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:685][284]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:702][285]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:719][286]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:735][287]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:752][288]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:769][289]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:786][290]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:802][291]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:819][292]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:835][293]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:852][294]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:869][295]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:885][296]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:903][297]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:919][298]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:935][299]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:952][300]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:969][301]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.50:985][302]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:003][303]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:020][304]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:036][305]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:052][306]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:069][307]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:086][308]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:102][309]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:118][310]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:135][311]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:152][312]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:170][313]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:186][314]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:202][315]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:218][316]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:236][317]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:252][318]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:268][319]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:285][320]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:302][321]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:318][322]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:335][323]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:353][324]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.11.51:369][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.23-08.11.51:369][325]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.09.23-08.11.51:369][325]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2022.09.23-08.11.51:369][325]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:385][326]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:401][327]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:419][328]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:436][329]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:453][330]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:469][331]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:485][332]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:502][333]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:519][334]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:536][335]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:552][336]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:569][337]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:586][338]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:603][339]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:619][340]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:636][341]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:652][342]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:669][343]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:686][344]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:702][345]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:719][346]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:735][347]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:752][348]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:769][349]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:786][350]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:802][351]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:819][352]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:835][353]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.11.51:862][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.23-08.11.51:862][353]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMapS
+[2022.09.23-08.11.51:862][353]LogSlate: Window 'AssassinTactics Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.09.23-08.11.51:875][353]LogWorld: UWorld::CleanupWorld for TestMapS, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.11.51:877][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.23-08.11.51:881][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.23-08.11.51:886][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.23-08.11.51:909][353]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.23-08.11.51:909][353]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.23-08.11.51:911][353]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.23-08.11.51:933][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.09.23-08.11.51:950][354]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.09.23-08.12.00:833][882]Cmd: DELETE
+[2022.09.23-08.12.00:833][882]Cmd: ACTOR DELETE
+[2022.09.23-08.12.00:840][882]LogEditorActor: Deleted Actor: BP_ItemBox_C
+[2022.09.23-08.12.00:864][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.09.23-08.12.00:866][882]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2022.09.23-08.12.01:350][911]LogEditorViewport: Clicking on Actor (LMB): BP_ItemBox_C (BP_ItemBox)
+[2022.09.23-08.12.01:406][914]Cmd: DELETE
+[2022.09.23-08.12.01:406][914]Cmd: ACTOR DELETE
+[2022.09.23-08.12.01:412][914]LogEditorActor: Deleted Actor: BP_ItemBox_C
+[2022.09.23-08.12.01:434][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.09.23-08.12.01:435][914]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2022.09.23-08.12.02:389][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.09.23-08.12.02:403][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMapS" FILE="../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.23-08.12.02:423][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.09.23-08.12.02:551][970]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMapS656A95144F25416E5A1A5BABA10C923B.tmp' to '../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap'
+[2022.09.23-08.12.02:557][970]LogFileHelpers: Saving map 'TestMapS' took 0.155
+[2022.09.23-08.12.02:570][970]AssetCheck: New page: Asset Save: TestMapS
+[2022.09.23-08.12.02:570][970]LogContentValidation: Display: Validating World /Game/Maps/TestMapS.TestMapS
+[2022.09.23-08.13.42:169][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.13.42:178][639]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox9F4DDD4844ACA79F96CC4DB9AD1F09D1.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.13.42:190][639]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.13.42:190][639]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.13.46:223][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.13.46:236][879]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBoxD2DA144C42698E84F4176FAE390C388F.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.13.46:248][879]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.13.46:248][879]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.13.48:479][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.13.48:492][ 10]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox7451F10141F349BF1C0C388C60BD4FF2.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.13.48:504][ 10]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.13.48:504][ 10]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.13.53:822][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2022.09.23-08.13.53:841][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMapS" FILE="../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.23-08.13.53:862][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.09.23-08.13.53:987][326]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMapS6B0F7DCB4812EF855D2A488109BD216A.tmp' to '../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap'
+[2022.09.23-08.13.53:992][326]LogFileHelpers: Saving map 'TestMapS' took 0.151
+[2022.09.23-08.13.53:999][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.13.54:011][326]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBoxCC440912451D0B7930D920B2B20049C2.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.13.54:026][326]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.23-08.13.54:026][326]LogContentValidation: Display: Validating World /Game/Maps/TestMapS.TestMapS
+[2022.09.23-08.13.54:026][326]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.13.57:086][509]BlueprintLog: New page: Compile BP_ItemBox
+[2022.09.23-08.13.57:133][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.09.23-08.13.57:623][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.13.57:636][536]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBoxF173B2F147E6C189B962AD9C9C2AEBD4.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.13.57:652][536]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.13.57:652][536]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.13.58:070][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2022.09.23-08.13.58:087][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMapS" FILE="../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.23-08.13.58:109][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.09.23-08.13.58:236][560]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMapS758275FE40D0BE48EB4855ADA55E2299.tmp' to '../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap'
+[2022.09.23-08.13.58:240][560]LogFileHelpers: Saving map 'TestMapS' took 0.153
+[2022.09.23-08.13.58:251][560]AssetCheck: New page: Asset Save: TestMapS
+[2022.09.23-08.13.58:251][560]LogContentValidation: Display: Validating World /Game/Maps/TestMapS.TestMapS
+[2022.09.23-08.14.03:772][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.09.23-08.14.03:794][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMapS" FILE="../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.23-08.14.03:818][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.09.23-08.14.03:961][890]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMapS36120688469916B51DBC20BBE062795F.tmp' to '../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap'
+[2022.09.23-08.14.03:968][890]LogFileHelpers: Saving map 'TestMapS' took 0.174
+[2022.09.23-08.14.03:976][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.14.03:988][890]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox4C5B5FC04C0915B9166285922D3A1D5C.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.14.04:007][890]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.23-08.14.04:007][890]LogContentValidation: Display: Validating World /Game/Maps/TestMapS.TestMapS
+[2022.09.23-08.14.04:007][890]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.14.04:752][935]BlueprintLog: New page: Compile BP_ItemBox
+[2022.09.23-08.14.04:801][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.09.23-08.14.05:282][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.14.05:295][961]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox9FB2BE6945A6B18CAB5CB5831BF1020C.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.14.05:307][961]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.14.05:307][961]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.14.24:333][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.09.23-08.14.24:348][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMapS" FILE="../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.23-08.14.24:370][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.09.23-08.14.24:541][ 97]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMapSFDEF966E408536EE93209C9088D674A7.tmp' to '../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap'
+[2022.09.23-08.14.24:548][ 97]LogFileHelpers: Saving map 'TestMapS' took 0.200
+[2022.09.23-08.14.24:548][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.14.24:561][ 97]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox2C6CFC0D4F5CA2B69AB4C38ECC86A077.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.14.24:577][ 97]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.23-08.14.24:577][ 97]LogContentValidation: Display: Validating World /Game/Maps/TestMapS.TestMapS
+[2022.09.23-08.14.24:577][ 97]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.14.25:538][154]BlueprintLog: New page: Compile BP_ItemBox
+[2022.09.23-08.14.25:582][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2022.09.23-08.14.26:385][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.14.26:397][200]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBoxCE838ABE42BF4E9631699FBC13B0ED56.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.14.26:412][200]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.14.26:412][200]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.14.27:491][264]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.09.23-08.14.27:512][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMapS" FILE="../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.23-08.14.27:531][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.09.23-08.14.27:657][264]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMapSC06149D14017DCB94354909D5CC17427.tmp' to '../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap'
+[2022.09.23-08.14.27:662][264]LogFileHelpers: Saving map 'TestMapS' took 0.149
+[2022.09.23-08.14.27:674][264]AssetCheck: New page: Asset Save: TestMapS
+[2022.09.23-08.14.27:674][264]LogContentValidation: Display: Validating World /Game/Maps/TestMapS.TestMapS
+[2022.09.23-08.14.29:336][364]LogEditorViewport: Clicking on Actor (LMB): BP_ItemBox_C (BP_ItemBox)
+[2022.09.23-08.14.30:042][406]Cmd: DELETE
+[2022.09.23-08.14.30:042][406]Cmd: ACTOR DELETE
+[2022.09.23-08.14.30:048][406]LogEditorActor: Deleted Actor: BP_ItemBox_C
+[2022.09.23-08.14.30:069][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2022.09.23-08.14.30:070][406]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2022.09.23-08.14.37:799][865]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2022.09.23-08.14.42:331][136]LogEditorViewport: Clicking on Actor (LMB): BP_ItemBox_C (BP_ItemBox)
+[2022.09.23-08.14.43:122][183]Cmd: DELETE
+[2022.09.23-08.14.43:122][183]Cmd: ACTOR DELETE
+[2022.09.23-08.14.43:128][183]LogEditorActor: Deleted Actor: BP_ItemBox_C
+[2022.09.23-08.14.43:153][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.09.23-08.14.43:154][183]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2022.09.23-08.14.43:915][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.09.23-08.14.43:939][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMapS" FILE="../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.23-08.14.43:959][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.09.23-08.14.44:086][228]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMapSD738DB9F416193AEAAA9AEB4D3A32F48.tmp' to '../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap'
+[2022.09.23-08.14.44:091][228]LogFileHelpers: Saving map 'TestMapS' took 0.152
+[2022.09.23-08.14.44:104][228]AssetCheck: New page: Asset Save: TestMapS
+[2022.09.23-08.14.44:104][228]LogContentValidation: Display: Validating World /Game/Maps/TestMapS.TestMapS
+[2022.09.23-08.15.09:057][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.15.09:067][721]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBoxBA4236DF4D5388D5EFA4D0B936C6B5FE.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.15.09:080][721]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.15.09:080][721]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.15.18:088][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.15.18:103][258]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox338E18A9486F3B4A78BCC1B629933F8B.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.15.18:121][258]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.15.18:121][258]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.15.21:089][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.15.21:103][435]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox8CEA43584BFBFCC1EFB3D693A1DA2896.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.15.21:118][435]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.15.21:118][435]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.15.22:366][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.15.22:380][509]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox4E122F5B4201BABC91D92382BC85F900.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.15.22:397][509]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.15.22:397][509]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.15.24:269][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.09.23-08.15.24:295][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.15.24:308][620]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox095C71BC4CBCFA0ABEE64E82EB77BF8C.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.15.24:325][620]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.15.24:325][620]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.15.24:913][656]BlueprintLog: New page: Compile BP_ItemBox
+[2022.09.23-08.15.24:953][656]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.09.23-08.15.25:388][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.15.25:401][680]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox4A899D734A47B50B7393CA8618E19EE8.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.15.25:418][680]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.15.25:418][680]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.15.25:729][698]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.09.23-08.15.36:426][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.09.23-08.15.36:444][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.15.36:456][339]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox740A98EA4B3958F3E61A99839EEB0021.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.15.36:469][339]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.15.36:469][339]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.15.37:274][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.15.37:285][387]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBox4566670E46B244A2FCF8019D26A57EFB.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.15.37:297][387]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.15.37:297][387]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.15.53:123][333]BlueprintLog: New page: Compile BP_ItemBox
+[2022.09.23-08.15.53:173][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.09.23-08.15.53:651][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractionObjs/BP_ItemBox" FILE="../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset" SILENT=true
+[2022.09.23-08.15.53:664][358]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/BP_ItemBoxAA80B7474A568EA2F8B9C9861735AB8B.tmp' to '../../../../../../study/AssassinTactics/Content/InteractionObjs/BP_ItemBox.uasset'
+[2022.09.23-08.15.53:677][358]AssetCheck: New page: Asset Save: BP_ItemBox
+[2022.09.23-08.15.53:677][358]LogContentValidation: Display: Validating Blueprint /Game/InteractionObjs/BP_ItemBox.BP_ItemBox
+[2022.09.23-08.16.01:612][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMapS" FILE="../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.23-08.16.01:636][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.09.23-08.16.01:762][827]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMapS344A9A4140D3E242A830EA84D86AB46D.tmp' to '../../../../../../study/AssassinTactics/Content/Maps/TestMapS.umap'
+[2022.09.23-08.16.01:768][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMapS_BuiltData" FILE="../../../../../../study/AssassinTactics/Content/Maps/TestMapS_BuiltData.uasset" SILENT=true
+[2022.09.23-08.16.02:802][827]LogSavePackage: Moving '../../../../../../study/AssassinTactics/Saved/TestMapS_BuiltDataFF068FA94FA24B869880D2916E547AE6.tmp' to '../../../../../../study/AssassinTactics/Content/Maps/TestMapS_BuiltData.uasset'
+[2022.09.23-08.16.02:831][827]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.23-08.16.02:831][827]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestMapS_BuiltData.TestMapS_BuiltData
+[2022.09.23-08.16.02:831][827]LogContentValidation: Display: Validating World /Game/Maps/TestMapS.TestMapS
+[2022.09.23-08.16.03:337][858]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.09.23-08.16.03:344][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.23-08.16.03:344][858]PIE: New page: PIE session: TestMapS (2022. 9. 24. 오전 2:16:03)
+[2022.09.23-08.16.03:344][858]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMapS
+[2022.09.23-08.16.03:375][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030278s)
+[2022.09.23-08.16.03:375][858]LogAIModule: Creating AISystem for world TestMapS
+[2022.09.23-08.16.03:376][858]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2022.09.23-08.16.03:376][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMapS.TestMapS to /Game/Maps/UEDPIE_0_TestMapS.TestMapS (0.031303s)
+[2022.09.23-08.16.03:397][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.09.23-08.16.03:397][858]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.09.23-08.16.03:397][858]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.23-08.16.03:397][858]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.23-08.16.03:397][858]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.23-08.16.03:397][858]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.23-08.16.03:397][858]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.23-08.16.03:397][858]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.23-08.16.03:397][858]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.23-08.16.03:397][858]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.23-08.16.03:398][858]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.23-08.16.03:398][858]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.23-08.16.03:398][858]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.23-08.16.03:398][858]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.23-08.16.03:400][858]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.23-08.16.03:400][858]LogAudioMixer: Display: 1: FrontRight
+[2022.09.23-08.16.03:517][858]LogAudioMixer: Display: Using Audio Device Speaker(Realtek(R) Audio)
+[2022.09.23-08.16.03:517][858]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.23-08.16.03:517][858]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.23-08.16.03:517][858]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.23-08.16.03:518][858]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.23-08.16.03:518][858]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.23-08.16.03:518][858]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.23-08.16.03:519][858]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.23-08.16.03:519][858]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.23-08.16.03:519][858]LogInit: FAudioDevice initialized.
+[2022.09.23-08.16.03:519][858]LogAudio: Display: Audio Device (ID: 7) registered with world 'TestMapS'.
+[2022.09.23-08.16.03:540][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.23-08.16.03:540][858]LogLoad: Game class is 'ATGameMode_C'
+[2022.09.23-08.16.03:549][858]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMapS.TestMapS up for play (max tick rate 60) at 2022.09.23-17.16.03
+[2022.09.23-08.16.03:549][858]LogWorld: Bringing up level for play took: 0.008633
+[2022.09.23-08.16.03:550][858]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2022.09.23-08.16.03:553][858]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.09.23-08.16.03:554][858]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2022.09.23-08.16.03:555][858]PIE: Server logged in
+[2022.09.23-08.16.03:556][858]PIE: Play in editor total start time 0.215 seconds.
+[2022.09.23-08.16.03:556][858]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:585][858]LogAudio: Warning: Detected orphaned looping sound 'Rain'.
+[2022.09.23-08.16.03:604][859]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:620][860]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:637][861]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:653][862]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:672][863]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:687][864]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:703][865]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:720][866]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:736][867]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:753][868]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:770][869]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:786][870]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:803][871]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:820][872]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:837][873]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:853][874]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:870][875]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:886][876]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:903][877]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:920][878]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:936][879]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:953][880]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:970][881]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.03:986][882]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:003][883]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:019][884]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:036][885]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:053][886]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:070][887]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:086][888]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:103][889]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:120][890]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:136][891]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:153][892]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:170][893]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:186][894]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:203][895]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:220][896]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:236][897]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:253][898]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:270][899]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:286][900]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:303][901]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:320][902]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:336][903]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:353][904]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:369][905]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:386][906]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:403][907]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:419][908]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:436][909]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:453][910]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:470][911]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:487][912]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:503][913]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:520][914]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:537][915]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:553][916]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:570][917]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:587][918]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:603][919]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:620][920]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:637][921]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:653][922]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:670][923]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:687][924]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:704][925]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:720][926]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:737][927]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:753][928]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:770][929]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:788][930]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:803][931]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:820][932]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:836][933]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:853][934]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:869][935]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:886][936]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:903][937]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:920][938]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:936][939]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:953][940]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:970][941]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.04:986][942]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:003][943]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:020][944]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:037][945]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:054][946]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:073][947]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:086][948]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:103][949]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:120][950]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:136][951]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:154][952]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:170][953]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:186][954]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:203][955]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:220][956]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:236][957]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:253][958]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:270][959]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:286][960]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:304][961]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:321][962]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:336][963]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:353][964]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:370][965]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:387][966]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:403][967]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:420][968]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:437][969]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:453][970]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:470][971]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:487][972]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:503][973]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:520][974]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:537][975]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:553][976]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:570][977]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:587][978]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:604][979]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:620][980]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:636][981]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:653][982]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:670][983]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:687][984]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:703][985]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:720][986]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:737][987]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:754][988]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:770][989]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:787][990]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:804][991]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:821][992]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:837][993]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:853][994]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:870][995]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:887][996]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:903][997]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:920][998]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:936][999]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:953][  0]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:970][  1]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.05:986][  2]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:003][  3]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:020][  4]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:036][  5]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:054][  6]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:070][  7]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:087][  8]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:103][  9]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:120][ 10]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:137][ 11]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:154][ 12]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:170][ 13]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:186][ 14]LogBlueprintUserMessages: [BP_ATGameState_C_0] GameBegin
+[2022.09.23-08.16.06:203][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.23-08.16.06:203][ 15]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.09.23-08.16.06:203][ 15]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2022.09.23-08.16.06:204][ 15]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:220][ 16]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:236][ 17]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:253][ 18]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:270][ 19]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:286][ 20]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:303][ 21]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:319][ 22]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:336][ 23]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:353][ 24]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:371][ 25]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:387][ 26]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:404][ 27]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:420][ 28]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:437][ 29]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:453][ 30]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:470][ 31]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:487][ 32]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:503][ 33]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:520][ 34]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:537][ 35]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:553][ 36]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:570][ 37]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:587][ 38]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:603][ 39]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:623][ 40]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:636][ 41]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:653][ 42]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:671][ 43]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:686][ 44]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:703][ 45]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:720][ 46]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:737][ 47]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:753][ 48]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:770][ 49]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:787][ 50]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:803][ 51]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:821][ 52]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:837][ 53]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:853][ 54]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:870][ 55]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:887][ 56]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:903][ 57]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:919][ 58]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:937][ 59]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:953][ 60]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:970][ 61]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.06:987][ 62]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:004][ 63]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:020][ 64]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:036][ 65]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:053][ 66]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:070][ 67]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:088][ 68]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:103][ 69]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:119][ 70]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:136][ 71]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:153][ 72]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:169][ 73]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:188][ 74]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:203][ 75]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:220][ 76]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:236][ 77]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:254][ 78]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:270][ 79]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:286][ 80]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:303][ 81]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:320][ 82]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:338][ 83]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:354][ 84]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:371][ 85]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:387][ 86]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:403][ 87]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:420][ 88]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:436][ 89]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:453][ 90]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:471][ 91]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:486][ 92]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:504][ 93]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:521][ 94]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:537][ 95]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:553][ 96]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:571][ 97]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:586][ 98]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:603][ 99]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:620][100]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:636][101]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:653][102]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:670][103]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:686][104]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:703][105]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:720][106]LogBlueprintUserMessages: [BP_Inventory_2] obtain rock
+[2022.09.23-08.16.07:720][106]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:737][107]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:753][108]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:770][109]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:786][110]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:803][111]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:820][112]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:836][113]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:853][114]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:870][115]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:886][116]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:903][117]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:920][118]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:938][119]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:953][120]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:970][121]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.07:986][122]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:003][123]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:020][124]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:037][125]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:053][126]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:070][127]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:087][128]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:104][129]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:120][130]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:138][131]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:153][132]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:170][133]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:187][134]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:203][135]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:220][136]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:238][137]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:254][138]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:271][139]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:287][140]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:303][141]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:320][142]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:336][143]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:353][144]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:370][145]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:387][146]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:403][147]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:420][148]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:437][149]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:453][150]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:470][151]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:486][152]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:503][153]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:520][154]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:537][155]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:553][156]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:570][157]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:587][158]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:603][159]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:620][160]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:637][161]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:654][162]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:670][163]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:686][164]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:703][165]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:721][166]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:737][167]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:753][168]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:770][169]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:786][170]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:804][171]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:823][172]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:836][173]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:853][174]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:870][175]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:886][176]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:904][177]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:920][178]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:937][179]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:954][180]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:971][181]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.08:987][182]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:005][183]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:020][184]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:037][185]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:054][186]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:071][187]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:087][188]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:103][189]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:120][190]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:137][191]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:154][192]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:172][193]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:187][194]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:203][195]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:220][196]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:236][197]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:253][198]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:270][199]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:286][200]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:303][201]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:319][202]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:336][203]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:353][204]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:370][205]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:386][206]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:403][207]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:420][208]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:436][209]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:453][210]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:470][211]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:486][212]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:503][213]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:520][214]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:536][215]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:553][216]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:570][217]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:586][218]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:603][219]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:620][220]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:637][221]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:653][222]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:671][223]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:687][224]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:703][225]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:720][226]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:737][227]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:754][228]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:770][229]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:787][230]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:803][231]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:820][232]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:837][233]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:853][234]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:869][235]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:887][236]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:903][237]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:920][238]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:937][239]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:954][240]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:970][241]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.09:986][242]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:003][243]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:020][244]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:037][245]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:053][246]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:070][247]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:087][248]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:104][249]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:120][250]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:137][251]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:153][252]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:171][253]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:187][254]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:203][255]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:220][256]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:236][257]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:253][258]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:269][259]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:286][260]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:303][261]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:319][262]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:336][263]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:353][264]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:369][265]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:387][266]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:403][267]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:420][268]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:436][269]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:453][270]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:469][271]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:486][272]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:503][273]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:520][274]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:536][275]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:554][276]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:570][277]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:587][278]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:603][279]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:619][280]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:636][281]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:653][282]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:670][283]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:687][284]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:703][285]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:720][286]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:737][287]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:753][288]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:770][289]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:787][290]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:803][291]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:820][292]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:837][293]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:853][294]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:871][295]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:887][296]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:903][297]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:920][298]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:937][299]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:953][300]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:970][301]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.10:987][302]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:003][303]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:020][304]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:037][305]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:055][306]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:072][307]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:087][308]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:104][309]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:120][310]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:137][311]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:153][312]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:170][313]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:187][314]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:204][315]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:220][316]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:236][317]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:253][318]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:269][319]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:287][320]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:304][321]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:320][322]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:337][323]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:353][324]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:370][325]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:387][326]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:403][327]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:420][328]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:437][329]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:453][330]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:470][331]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:486][332]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:503][333]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:519][334]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:536][335]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:553][336]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:569][337]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:586][338]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:603][339]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:620][340]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:636][341]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:653][342]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:669][343]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:687][344]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:704][345]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:720][346]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:736][347]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:753][348]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:769][349]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:786][350]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:803][351]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:819][352]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:837][353]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:853][354]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:870][355]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:887][356]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:904][357]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:920][358]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:937][359]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:954][360]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:970][361]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.11:987][362]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.12:004][363]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.12:020][364]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.12:037][365]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.12:054][366]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.12:071][367]LogBlueprintUserMessages: [BP_ATGameState_C_0] GamePlay
+[2022.09.23-08.16.12:113][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.23-08.16.12:113][367]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMapS
+[2022.09.23-08.16.12:113][367]LogSlate: Window 'AssassinTactics Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.09.23-08.16.12:128][367]LogWorld: UWorld::CleanupWorld for TestMapS, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.12:129][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.23-08.16.12:138][367]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.23-08.16.12:146][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.23-08.16.12:170][367]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.23-08.16.12:171][367]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.23-08.16.12:194][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.09.23-08.16.12:207][368]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.09.23-08.16.20:911][792]LogWindowsDesktop: Alt-F4 pressed!
+[2022.09.23-08.16.20:933][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.09.23-08.16.20:952][792]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.20:952][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.23-08.16.20:974][792]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.20:974][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.23-08.16.21:000][792]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:000][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.23-08.16.21:033][792]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:033][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.23-08.16.21:072][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.23-08.16.21:072][792]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:072][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.23-08.16.21:109][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.23-08.16.21:109][792]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:109][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.23-08.16.21:147][792]LogSlate: Window 'AssassinTactics - Unreal Editor' being destroyed
+[2022.09.23-08.16.21:231][793]Cmd: QUIT_EDITOR
+[2022.09.23-08.16.21:231][793]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.09.23-08.16.21:235][793]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.09.23-08.16.21:572][793]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.09.23-08.16.21:572][793]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.09.23-08.16.21:572][793]LogAudio: Display: Audio Device unregistered from world 'TestMapS'.
+[2022.09.23-08.16.21:572][793]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.23-08.16.21:573][793]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.23-08.16.21:631][793]LogAudio: Display: Audio Device Manager Shutdown
+[2022.09.23-08.16.21:634][793]LogWindowsTextInputMethodSystem: Display: IME system activated using TSF (Microsoft 입력기).
+[2022.09.23-08.16.21:639][793]LogExit: Preparing to exit.
+[2022.09.23-08.16.21:728][793]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.09.23-08.16.21:801][793]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:804][793]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:806][793]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:808][793]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:810][793]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:811][793]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:813][793]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:815][793]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:817][793]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:818][793]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:820][793]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:821][793]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:823][793]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:874][793]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.09.23-08.16.21:880][793]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.23-08.16.21:880][793]LogExit: Editor shut down
+[2022.09.23-08.16.21:880][793]LogExit: Transaction tracking system shut down
+[2022.09.23-08.16.22:136][793]LogExit: Object subsystem successfully closed.
+[2022.09.23-08.16.22:158][793]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.23-08.16.22:158][793]LogShaderCompilers: Display: Total job queries 3066, among them cache hits 2172 (70.84%)
+[2022.09.23-08.16.22:158][793]LogShaderCompilers: Display: Tracking 803 distinct input hashes that result in 316 distinct outputs (39.35%)
+[2022.09.23-08.16.22:158][793]LogShaderCompilers: Display: RAM used: 1.39 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.17%
+[2022.09.23-08.16.22:158][793]LogShaderCompilers: Display: ================================================
+[2022.09.23-08.16.22:177][793]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.09.23-08.16.22:177][793]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.09.23-08.16.22:196][793]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (880)
+[2022.09.23-08.16.22:196][793]LogModuleManager: Shutting down and abandoning module Voice (878)
+[2022.09.23-08.16.22:196][793]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (876)
+[2022.09.23-08.16.22:196][793]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (874)
+[2022.09.23-08.16.22:196][793]LogModuleManager: Shutting down and abandoning module BlueprintGraph (872)
+[2022.09.23-08.16.22:196][793]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (870)
+[2022.09.23-08.16.22:196][793]LogModuleManager: Shutting down and abandoning module SceneOutliner (868)
+[2022.09.23-08.16.22:196][793]LogModuleManager: Shutting down and abandoning module AddContentDialog (866)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module WidgetCarousel (865)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module EditorWidgets (862)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module StatsViewer (860)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (858)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (856)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module AutomationWorker (854)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module SteamVREditor (852)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module OculusMR (850)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (848)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module TakeRecorder (847)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (844)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module TakesCore (842)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module OpenXRInput (840)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module GooglePADEditor (838)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (836)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (834)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (832)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (830)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (828)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (826)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (824)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (822)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (820)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (818)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (816)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module SequenceRecorder (815)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (812)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (810)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module WebMMedia (808)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (806)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (804)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (802)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (800)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (798)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (796)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (794)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (792)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module PlanarCut (790)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module CharacterAI (788)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module TextureAlignMode (786)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module BspMode (784)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module GeometryMode (782)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (780)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module SmartSnapping (778)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module SessionServices (776)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module MeshPaint (774)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (772)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module FoliageEdit (770)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module LandscapeEditor (768)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module MeshPaintMode (766)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (764)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module ActorPickerMode (762)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module PlacementMode (760)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module ViewportSnapping (758)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module ViewportInteraction (756)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module ClothPainter (754)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (753)
+[2022.09.23-08.16.22:197][793]LogModuleManager: Shutting down and abandoning module LogVisualizer (750)
+[2022.09.23-08.16.22:198][793]LogModuleManager: Shutting down and abandoning module IntroTutorials (748)
+[2022.09.23-08.16.22:198][793]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (747)
+[2022.09.23-08.16.22:198][793]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (744)
+[2022.09.23-08.16.22:198][793]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (742)
+[2022.09.23-08.16.22:198][793]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (740)
+[2022.09.23-08.16.22:198][793]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (739)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (736)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (734)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (732)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (730)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module TraceInsights (728)
+[2022.09.23-08.16.22:769][793]MemoryProfiler: Shutdown
+[2022.09.23-08.16.22:769][793]NetworkingProfiler: Shutdown
+[2022.09.23-08.16.22:769][793]LoadingProfiler: Shutdown
+[2022.09.23-08.16.22:769][793]TimingProfiler: Shutdown
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module TraceServices (727)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (724)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (722)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module InputBindingEditor (720)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module MergeActors (718)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (716)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module LocalizationService (715)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module HardwareTargeting (712)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (710)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module UndoHistory (708)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module XmlParser (706)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module Blutility (704)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (702)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (701)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (698)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (697)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module SettingsEditor (694)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module ProjectLauncher (692)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module SessionFrontend (690)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module ProfilerClient (688)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module DeviceManager (686)
+[2022.09.23-08.16.22:769][793]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (685)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module AutomationController (682)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module AutomationWindow (680)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module Layers (678)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (676)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module DetailCustomizations (674)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module PackagesDialog (672)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (670)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module Persona (668)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (667)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module AnimGraph (665)
+[2022.09.23-08.16.22:802][793]LogModuleManager: Shutting down and abandoning module Kismet (662)
+[2022.09.23-08.16.22:810][793]LogModuleManager: Shutting down and abandoning module KismetWidgets (661)
+[2022.09.23-08.16.22:810][793]LogModuleManager: Shutting down and abandoning module GraphEditor (658)
+[2022.09.23-08.16.22:810][793]LogModuleManager: Shutting down and abandoning module StructViewer (656)
+[2022.09.23-08.16.22:810][793]LogModuleManager: Shutting down and abandoning module ClassViewer (654)
+[2022.09.23-08.16.22:810][793]LogModuleManager: Shutting down and abandoning module Toolbox (652)
+[2022.09.23-08.16.22:810][793]LogModuleManager: Shutting down and abandoning module ModuleUI (650)
+[2022.09.23-08.16.22:810][793]LogModuleManager: Shutting down and abandoning module OutputLog (648)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module GammaUI (646)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module Documentation (644)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module LiveCoding (642)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module LevelSequence (640)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (638)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module MovieScene (636)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (634)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module LauncherPlatform (632)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module AnalyticsET (630)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module PortalServices (628)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module PortalRpc (626)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module MessagingRpc (624)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (622)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module AudioMixerCore (621)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module AIModule (618)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module GameplayDebugger (617)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module AITestSuite (615)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module NavigationSystem (613)
+[2022.09.23-08.16.22:811][793]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (610)
+[2022.09.23-08.16.22:819][793]LogModuleManager: Shutting down and abandoning module ProfilerService (608)
+[2022.09.23-08.16.22:986][793]LogModuleManager: Shutting down and abandoning module TaskGraph (606)
+[2022.09.23-08.16.22:986][793]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (604)
+[2022.09.23-08.16.22:986][793]LogModuleManager: Shutting down and abandoning module OculusEditor (602)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module OculusInput (600)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (598)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (596)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (594)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module CollectionManager (593)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module TakeSequencer (590)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module TakeMovieScene (588)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module SynthesisEditor (586)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module Synthesis (584)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module OpenXREditor (582)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (580)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (578)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (576)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (574)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GooglePAD (572)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ScreenshotTools (570)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module AndroidPermission (568)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module CableComponent (566)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module EditableMesh (564)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module AssetTags (562)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module AudioCapture (560)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (559)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (556)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module AppleImageUtils (554)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (552)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (550)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (548)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module TemplateSequence (546)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (544)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (542)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (540)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (538)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (536)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module MediaCompositing (534)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ImgMedia (532)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (530)
+[2022.09.23-08.16.22:987][793]LogOpenImageDenoise: OIDN shutting down
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (528)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module MotoSynth (526)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (524)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (522)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (520)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module MeshConversion (518)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module DynamicMesh (516)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (514)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GeometricObjects (512)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (510)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (509)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (506)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (504)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module FractureEditor (502)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (500)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module ChaosNiagara (498)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (497)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (494)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module BackChannel (492)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (490)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module AutomationUtils (488)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module AlembicImporter (486)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module AlembicLibrary (485)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GeometryCache (484)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (483)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module UObjectPlugin (478)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module PluginUtils (476)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (474)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (472)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (470)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module GitSourceControl (468)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (466)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (464)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (462)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (460)
+[2022.09.23-08.16.22:987][793]LogModuleManager: Shutting down and abandoning module SourceControl (459)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (456)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (454)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module PluginBrowser (452)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (450)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (448)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (446)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (444)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module CurveEditorTools (442)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (440)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module CryptoKeys (438)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (436)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (434)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (432)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (430)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (428)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (426)
+[2022.09.23-08.16.22:988][793]LogModuleManager: Shutting down and abandoning module LiveLink (424)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (422)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (420)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (418)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module Paper2DEditor (416)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (414)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (412)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module SoundFields (410)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (408)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module SignificanceManager (406)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (404)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (402)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (398)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (396)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (394)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module ActorSequence (392)
+[2022.09.23-08.16.23:858][793]LogModuleManager: Shutting down and abandoning module UdpMessaging (390)
+[2022.09.23-08.16.23:960][793]LogModuleManager: Shutting down and abandoning module TcpMessaging (388)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (386)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (384)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (382)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (380)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (378)
+[2022.09.23-08.16.24:060][793]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (376)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (374)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (372)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (370)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapController (368)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (366)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module MagicLeapAR (364)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (362)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (360)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (358)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module SignalProcessing (355)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module NiagaraEditor (353)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module NiagaraCore (350)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (348)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module AnimationSharing (346)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (344)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (342)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module FacialAnimation (340)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module DataValidation (338)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (336)
+[2022.09.23-08.16.24:060][793]LogModuleManager: Shutting down and abandoning module LevelEditor (335)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (334)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (332)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module MainFrame (330)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module HotReload (329)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module ToolMenus (325)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module ContentBrowser (323)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module ContentBrowserData (322)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module TreeMap (319)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module GameplayCameras (316)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (314)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (312)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module Paper2D (310)
+[2022.09.23-08.16.24:061][793]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (308)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (306)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (304)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module PacketHandler (302)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (300)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (298)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module MediaAssets (296)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module Overlay (294)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module OverlayEditor (293)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module VREditor (290)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module StringTableEditor (288)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (286)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (284)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module FunctionalTesting (282)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (280)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (279)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2022.09.23-08.16.24:062][793]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module MessageLog (273)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (262)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module UnrealEd (260)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module MRMesh (258)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (256)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (254)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module XAudio2 (252)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module Networking (250)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module Core (248)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module MovieSceneTools (244)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module CurveEditor (243)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module Sequencer (241)
+[2022.09.23-08.16.24:063][793]LogModuleManager: Shutting down and abandoning module EditorStyle (240)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module KismetCompiler (236)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module MeshBuilder (234)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module MeshUtilities (232)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (231)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (230)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (229)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (227)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (225)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (223)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module MaterialBaking (219)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (214)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module DerivedDataCache (212)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module TargetPlatform (210)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (209)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (207)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (205)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (203)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (201)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (199)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (197)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (195)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (193)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (191)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (189)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (187)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module ImageWrapper (186)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (183)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (181)
+[2022.09.23-08.16.24:064][793]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (177)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (175)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (171)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (167)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (165)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (163)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (161)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (159)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (157)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (155)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (153)
+[2022.09.23-08.16.24:065][793]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (151)
+[2022.09.23-08.16.24:066][793]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (149)
+[2022.09.23-08.16.24:066][793]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (147)
+[2022.09.23-08.16.24:066][793]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (145)
+[2022.09.23-08.16.24:066][793]LogModuleManager: Shutting down and abandoning module Messaging (143)
+[2022.09.23-08.16.24:066][793]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (141)
+[2022.09.23-08.16.24:066][793]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (139)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (137)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module D3D11RHI (134)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module InputCore (132)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module Settings (130)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (128)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module PhysXCooking (126)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (122)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (121)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module AVEncoder (120)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (116)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module SteamVRInput (114)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module SteamVR (112)
+[2022.09.23-08.16.24:068][793]LogHMD: Freeing OpenVRDLLHandle.
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module OculusHMD (110)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module OpenXRAR (108)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module AugmentedReality (107)
+[2022.09.23-08.16.24:068][793]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (104)
+[2022.09.23-08.16.24:069][793]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.09.23-08.16.24:069][793]LogModuleManager: Shutting down and abandoning module OpenXRHMD (103)
+[2022.09.23-08.16.24:071][793]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (100)
+[2022.09.23-08.16.24:071][793]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (98)
+[2022.09.23-08.16.24:071][793]LogModuleManager: Shutting down and abandoning module ChunkDownloader (96)
+[2022.09.23-08.16.24:071][793]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (94)
+[2022.09.23-08.16.24:071][793]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2022.09.23-08.16.24:071][793]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2022.09.23-08.16.24:072][793]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2022.09.23-08.16.24:072][793]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2022.09.23-08.16.24:097][793]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2022.09.23-08.16.24:097][793]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.09.23-08.16.24:097][793]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE3D9942E-4E34-AEB4-6F74-069B5284CFA9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=779ff0f94542f4a2a08737838fc58a81%7Ca5f6dbcefe51477badb51a117bf163f3%7Ca7bbdf1d-db8c-48af-a869-e28a84c4ec8e&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.09.23-08.16.24:097][793]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.09.23-08.16.24:114][793]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2022.09.23-08.16.24:114][793]LogModuleManager: Shutting down and abandoning module MLSDK (74)
+[2022.09.23-08.16.24:114][793]LogModuleManager: Shutting down and abandoning module MagicLeap (72)
+[2022.09.23-08.16.24:114][793]LogModuleManager: Shutting down and abandoning module WmfMedia (70)
+[2022.09.23-08.16.24:116][793]LogModuleManager: Shutting down and abandoning module Media (69)
+[2022.09.23-08.16.24:116][793]LogModuleManager: Shutting down and abandoning module MediaInfo (68)
+[2022.09.23-08.16.24:116][793]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (64)
+[2022.09.23-08.16.24:116][793]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (62)
+[2022.09.23-08.16.24:116][793]LogModuleManager: Shutting down and abandoning module NiagaraShader (60)
+[2022.09.23-08.16.24:116][793]LogModuleManager: Shutting down and abandoning module ChaosCloth (58)
+[2022.09.23-08.16.24:116][793]LogModuleManager: Shutting down and abandoning module VariantManagerContent (56)
+[2022.09.23-08.16.24:116][793]LogModuleManager: Shutting down and abandoning module PixWinPlugin (54)
+[2022.09.23-08.16.24:116][793]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2022.09.23-08.16.24:117][793]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.09.23-08.16.24:117][793]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.09.23-08.16.24:117][793]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2022.09.23-08.16.24:117][793]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.09.23-08.16.24:117][793]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.09.23-08.16.24:117][793]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.09.23-08.16.24:117][793]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2022.09.23-08.16.24:117][793]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2022.09.23-08.16.24:117][793]LogXGEController: Cleaning working directory: C:/Users/sycym/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.09.23-08.16.24:118][793]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2022.09.23-08.16.24:118][793]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.09.23-08.16.24:118][793]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.09.23-08.16.24:119][793]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.09.23-08.16.24:119][793]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.09.23-08.16.24:139][793]LogD3D11RHI: Shutdown
+[2022.09.23-08.16.24:139][793]LogD3D11RHI: CleanupD3DDevice
+[2022.09.23-08.16.24:142][793]LogExit: Exiting.
+[2022.09.23-08.16.24:154][793]Log file closed, 09/23/22 17:16:24
